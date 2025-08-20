@@ -1,0 +1,5 @@
+@baseURL = http://localhost:8080
+
+### Ping API
+GET {{baseURL}}/ping HTTP/1.1
+content-type: application/json

@@ -3,3 +3,23 @@
 ### Ping API
 GET {{baseURL}}/ping HTTP/1.1
 content-type: application/json
+
+### Get all Opening
+GET {{baseURL}}/api/v1/openings HTTP/1.1
+content-type: application/json
+
+### Create Opening
+POST {{baseURL}}/api/v1/openings HTTP/1.1
+content-type: application/json
+
+### Get Opening by ID
+GET {{baseURL}}/api/v1/openings/1 HTTP/1.1
+content-type: application/json
+
+### Update Opening by ID
+PUT {{baseURL}}/api/v1/openings/1 HTTP/1.1
+content-type: application/json
+
+### Delete Opening by ID
+DELETE {{baseURL}}/api/v1/openings/1 HTTP/1.1
+content-type: application/json
